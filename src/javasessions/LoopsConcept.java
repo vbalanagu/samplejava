@@ -25,5 +25,26 @@ public class LoopsConcept {
 			System.out.println(i1);
 			i1--;
 		}
+		/*
+		 * Use cases of While:
+		 * 1. web pagination
+		 * 2. wait for page to load
+		 * 3. wait for an element
+		 * 4. webtable pagination
+		 * 5. carousel handling
+		 * 6. page scrolling: linkedin
+		 */
+		/*
+		 * Use cases of for loop:
+		 * 1. month drop down: 1 to 12
+		 * 2. two radio button, 5 check boxes
+		 * 3. Week drop down
+		 */
+		System.out.println("Example of do while loop");
+		int p1=1;
+		do {
+			System.out.println(p1);
+			p1++;
+		} while(p1<10);
 	}
 }
